@@ -9,7 +9,6 @@
   Article.create (
   title: Faker::DcComics.title,
   content: Faker::DcComics.hero,
-  rating: rand(1..5)
    )
 
 end
